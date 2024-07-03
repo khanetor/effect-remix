@@ -1,2 +1,2 @@
-export * as Server from "./Server"
-export * as Session from "./Session"
+export * from "./Server.ts"
+export * from "./Session.ts"

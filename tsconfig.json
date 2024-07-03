@@ -1,12 +1,54 @@
 {
-    "extends": "../../tsconfig.base.json",
-    "include": [],
-    "references": [
-        {
-            "path": "tsconfig.src.json"
+    "compilerOptions": {
+        "strict": true,
+        "exactOptionalPropertyTypes": true,
+        "moduleDetection": "force",
+        "composite": true,
+        "downlevelIteration": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "declaration": true,
+        "skipLibCheck": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "NodeNext",
+        "lib": [
+            "ES2022"
+        ],
+        "types": [],
+        "isolatedModules": true,
+        "sourceMap": true,
+        "declarationMap": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true,
+        "noEmitOnError": false,
+        "noErrorTruncation": false,
+        "allowJs": false,
+        "checkJs": false,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noUncheckedIndexedAccess": false,
+        "strictNullChecks": true,
+        "baseUrl": ".",
+        "paths": {
+            "effect": ["node_modules/"]
         },
-        {
-            "path": "tsconfig.test.json"
-        }
+        "target": "ES2022",
+        "module": "NodeNext",
+        "incremental": true,
+        "removeComments": false,
+        "rootDir": "src",
+        "outDir": "dist",
+        "allowImportingTsExtensions": true,
+        "emitDeclarationOnly": true,
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
     ]
 }
