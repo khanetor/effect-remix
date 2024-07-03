@@ -1,0 +1,25 @@
+{
+  "name": "@effect/remix",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "Adapters for using effect in Remix framework",
+  "main": "index.ts",
+  "repository": "git@github.com:khanetor/effect-remix.git",
+  "author": "Kha Nguyen <nlhkha@outlook.com>",
+  "license": "MIT",
+  "tags": [
+    "typescript",
+    "remix",
+    "remix-run",
+    "effect",
+    "effect-ts"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "private": false,
+  "peerDependencies": {
+    "@remix-run/node": "^2.10.1",
+    "effect": "^3.4.6"
+  }
+}
