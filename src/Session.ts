@@ -13,7 +13,7 @@ export class EffectStorageError extends Data.TaggedError("EffectStorageError")<{
 }> { }
 
 
-class EffectStorage<A = SessionData, F = A> {
+export class EffectStorage<A = SessionData, F = A> {
     private storage: Effect.Effect<SessionStorage<A, F>, never, never>
 
     constructor(storage: SessionStorage<A, F>) {
