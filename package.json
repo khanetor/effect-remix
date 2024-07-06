@@ -25,8 +25,8 @@
   },
   "private": false,
   "peerDependencies": {
-    "@remix-run/node": "^2.10.1",
-    "effect": "^3.4.6"
+    "@remix-run/node": "^2.9.2",
+    "effect": "^3.2.9"
   },
   "devDependencies": {
     "typescript": "^5.5.3",
