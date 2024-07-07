@@ -1,11 +1,12 @@
 {
   "name": "@khanetor/effect-remix",
   "type": "module",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Adapters for using effect in Remix framework",
-  "main": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf dist && tsc",
     "test": "vitest --typecheck"
   },
   "repository": {

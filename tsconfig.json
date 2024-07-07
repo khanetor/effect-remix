@@ -3,7 +3,6 @@
         "strict": true,
         "exactOptionalPropertyTypes": true,
         "moduleDetection": "force",
-        "composite": true,
         "downlevelIteration": true,
         "resolveJsonModule": true,
         "esModuleInterop": true,
@@ -11,14 +10,8 @@
         "skipLibCheck": true,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
-        "moduleResolution": "NodeNext",
-        "lib": [
-            "ES2022"
-        ],
-        "types": [],
-        "isolatedModules": true,
-        "sourceMap": true,
-        "declarationMap": true,
+        "target": "ES2020",
+        "module": "CommonJS",
         "noImplicitReturns": true,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
@@ -30,22 +23,13 @@
         "forceConsistentCasingInFileNames": true,
         "noImplicitAny": true,
         "noImplicitThis": true,
-        "noUncheckedIndexedAccess": false,
+        "noUncheckedIndexedAccess": true,
         "strictNullChecks": true,
         "baseUrl": ".",
-        "target": "ES2022",
-        "module": "NodeNext",
-        "incremental": true,
         "removeComments": false,
         "rootDir": "src",
-        "outDir": "dist",
-        "allowImportingTsExtensions": true,
-        "emitDeclarationOnly": true,
+        "outDir": "dist"
     },
-    "include": [
-        "src/**/*.ts"
-    ],
-    "exclude": [
-        "node_modules"
-    ]
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
 }
