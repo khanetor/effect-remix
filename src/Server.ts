@@ -1,6 +1,6 @@
-import type { Effect } from "effect/Effect";
-import type { ManagedRuntime } from "effect/ManagedRuntime";
-import type { ActionFunctionArgs, LoaderFunctionArgs } from "@remix-run/node";
+import type { Effect } from "effect/Effect"
+import type { ManagedRuntime } from "effect/ManagedRuntime"
+import type { ActionFunctionArgs, LoaderFunctionArgs } from "@remix-run/node"
 
 export function loaderEffect<A, RE, RF, R>(
     runtime: ManagedRuntime<R, RE>,

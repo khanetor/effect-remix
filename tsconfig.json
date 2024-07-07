@@ -34,7 +34,7 @@
         "strictNullChecks": true,
         "baseUrl": ".",
         "paths": {
-            "effect": ["node_modules/"]
+            "~/*": ["./src/*"]
         },
         "target": "ES2022",
         "module": "NodeNext",
