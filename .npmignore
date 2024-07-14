@@ -1,3 +1,6 @@
 src
 test
 .github
+tsconfig.json
+vitest.config.ts
+.gitignore
